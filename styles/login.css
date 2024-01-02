@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+background-color: rgb(240 242 245);
+height: 700px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.log-int{
+    background-color: #ffffff;
+    width: 480px;
+
+    height: 350px;
+}
+input{
+    /* display: inline-block; */
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
