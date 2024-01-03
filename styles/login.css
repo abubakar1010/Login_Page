@@ -13,6 +13,7 @@
 .log-int {
   background-color: #ffffff;
   width: 480px;
+  border-radius: 11px;
 
   height: 450px;
 }
@@ -22,7 +23,8 @@
   margin: 20px;
   padding: 10px;
   height: 28px;
-  border-radius: 12px;
+  border-radius: 7px;
+  border: 1px solid gainsboro;
 }
 .log {
   display: inline-block;
@@ -30,22 +32,32 @@
   margin: 30px 20px 20px;
   font-size: medium;
   height: 50px;
-  border-radius: 12px;
-  background-color: rgba(34, 232, 163, 0.585);
+  border-radius: 7px;
+  background-color: rgba(24 119 242);
+  border: 1px solid blue;
 }
 .text-forgot {
   
-  margin-left: 65px;
+  text-align: center;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.checking {
+.text-forgot:hover{
+  text-decoration: underline;
+  color: #1877f2;
+  cursor: pointer;
+}
+
+/* .checking {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
   color: rgb(50 32 231);
   font-size: large;
-}
+} */
 
 hr {
   color: rgb(11, 172, 212);
@@ -53,15 +65,16 @@ hr {
 }
 .btn {
     display: inline-block;
-    width: 330px;
-    margin: 20px 75px 20px;
+    width: 260px;
+    margin: 20px 110px 20px;
     font-size: medium;
-    height: 50px;
+    height: 55px;
     border-radius: 12px;
-    background-color: rgb(27 48 226 / 35%);
+    background-color: rgb(66 183 4 / 76% );
+    border: 1px solid rgb(66 183 4 / 76%);
 }
 .main-text{
-    color: #2adfdc;
+    color: #0866ff;
     text-align: center;
     margin-bottom: 10px;
     font-size: 40px;
